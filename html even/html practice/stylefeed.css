@@ -1,0 +1,73 @@
+body {
+    background-color: black;
+    font-family: Arial;
+}
+
+
+.container {
+    width: 550px;
+    background-color: white;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: darkred;
+    color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.header h2 {
+    margin: 0;
+}
+
+.header p {
+    margin: 5px 0 0;
+    font-size: 14px;
+}
+
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+input,
+textarea {
+    width: 100%;
+    padding: 6px;
+    margin-top: 5px;
+}
+
+textarea {
+    height: 80px;
+}
+
+.half {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.half + .half {
+    margin-left: 3%;
+}
+
+.half input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.options input {
+    width: auto;
+    margin-right: 5px;
+}
+
+.info {
+    font-size: 13px;
+    margin-top: 15px;
+}
