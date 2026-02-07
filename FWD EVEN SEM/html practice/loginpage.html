@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+
+    <style>
+        body {
+           
+            background-color: #f2f2f2
+        }
+
+        form {
+            width: 300px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: white;
+            border: 2px solid white;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin: 10px 0;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: green;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form>
+        <h2>Login</h2>
+
+        <label>Username:</label>
+        <input type="text" pattern="[A-Za-z]+" 
+               title="Username must contain only alphabets" required>
+
+        <label>Password:</label>
+        <input type="password"
+               pattern="(?=.*[0-9])(?=.*[!@#$%^&*]).{6,}"
+               title="Password must contain at least one number and one special character"
+               required>
+
+        <button type="submit">Login</button>
+    </form>
+
+</body>
+</html>
