@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title align = "center">Student Registration Form</title>
+    <style>
+        body {
+            background-color:red;
+        }
+    </style>
+</head>
+<body>
+    <h1>STUDENT REGISTRATION FORM</h1>
+    <form>
+        <label>Firstname:</label>
+        <input type="text" name="student name"><br><br>
+        <label>Mobile no:</label>
+        <input type="text" name="mobile no"><br><br>
+        <label>Course :</label>
+        <select name="course">
+            <option value="">Course</option>
+            <option value="cse">cse</option>
+            <option value="csit">csit</option>
+            <option value="aids">aids</option>
+            <option value="ece">ece</option>
+        </select><br><br>
+        
+        <label>Gender :</label><br>
+        <input type="radio" name="gender" value="male" id="male">
+        <label for="male">Male</label><br>
+        <input type="radio" name="gender" value="female" id="female">
+        <label for="female">Female</label><br>
+        
+        <label>Student Hobbies :</label><br>
+        <input type="checkbox" name="hobbies" value="cricket" id="cricket">
+        <label for="cricket">Cricket</label><br>
+        <input type="checkbox" name="hobbies" value="chess" id="chess">
+        <label for="chess">Chess</label><br>
+        <input type="checkbox" name="hobbies" value="football" id="football">
+        <label for="football">Football</label><br>
+        <input type="checkbox" name="hobbies" value="dance" id="dance">
+        <label for="dance">Dance</label><br><br>
+        
+        <label>Phone :</label>
+        <input type="text" name="countrycode" value="+91" size="3">
+        <input type="text" name="phone" size="20"><br><br>
+        
+        <label>Address :</label><br>
+        <textarea name="address"></textarea><br><br>
+        
+        <label>Email:</label>
+        <input type="email" name="email" size="25"><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
